@@ -1,0 +1,72 @@
+---
+title: "Basic R Markdown Website"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+---
+
+## Welcome!
+
+Hi I'm Kelly from RStudio - This is an example portfolio website I created to inspire more people to build data products and share them on the internet.
+
+- I created this website using R Markdown hosted on my GitHub account.
+- The `Shiny Showcase` section displays embedded shiny applications hosted on [shinyapps.io](http://www.shinyapps.io/)
+
+### The importance of public work
+
+Not all work can be made public, but sharing work publicly is powerful - useful to you and others!
+
+------
+
+## Shiny Showcase
+
+### Old Faithful Gyser
+
+This shiny application is the standard starter-template app for new Shiny projects in the RStudio IDE.
+
+<!--html_preserve-->
+<html>
+
+<iframe id="example1" src="https://kelly-rstudio.shinyapps.io/Portfolio-Test/"
+style="border: non; width: 100%; height: 500px"
+frameborder="0">
+</iframe>
+
+</html>
+<!--/html_preserve-->
+
+### K-Means Clustering
+
+This is a basic shiny example from the RStudio [Shiny Gallery](http://shiny.rstudio.com/gallery/) site.
+
+<!--html_preserve-->
+<html>
+
+<iframe id="example2" src="https://kelly-rstudio.shinyapps.io/Portfolio-Test/"
+style="border: non; width: 100%; height: 500px"
+frameborder="0">
+</iframe>
+
+</html>
+<!--/html_preserve-->
+
+## Build Resources
+
+### Embedding Shiny Applications
+
+Every application you deploy will have a unique URL, served over a secure socket (SSL) connection and accessible from a web browser. You can embed your application within other pages by using an `iframe`.
+
+```
+<iframe id="example1" src="https://<accountname>.shinyapps.io/<applicationame>"
+style="border: non; width: 100%; height: 500px"
+frameborder="0">
+</iframe>
+```
+
+### Get Started: shinyapps.io
+
+### Get Started: R Markdown Websites
+
+
+
